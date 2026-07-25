@@ -121,6 +121,8 @@ constexpr char kEffectTypeUuidExtension[] = "fa81dbde-588b-11ed-9b6a-0242ac12000
 constexpr char kEffectImplUuidExtension[] = "fa81dd00-588b-11ed-9b6a-0242ac120002";
 constexpr char kEffectTypeUuidViper[] = "41d3c987-e6cf-11e3-a88a-11aba5d5c51b";
 constexpr char kEffectImplUuidViper[] = "90380da3-8536-4744-a6a3-5731970e640f";
+constexpr char kEffectTypeUuidDolbyDap[] = "46d279d9-9be7-453d-9d7c-ef937f675587";
+constexpr char kEffectImplUuidDolbyDap[] = "9d4921da-8225-4f29-aefa-39537a04bcaa";
 
 #define EFFECT_TYPE_UUID_LIST_DEF(V)  \
     V(TypeUuidAcousticEchoCanceler)   \
@@ -141,7 +143,8 @@ constexpr char kEffectImplUuidViper[] = "90380da3-8536-4744-a6a3-5731970e640f";
     V(TypeUuidVirtualizer)            \
     V(TypeUuidVisualizer)             \
     V(TypeUuidVolume)                 \
-    V(TypeUuidViper)
+    V(TypeUuidViper)                  \
+    V(TypeUuidDolbyDap)
 
 #define EFFECT_IMPL_UUID_LIST_DEF(V)    \
     V(ImplUuidAcousticEchoCancelerSw)   \
@@ -180,7 +183,8 @@ constexpr char kEffectImplUuidViper[] = "90380da3-8536-4744-a6a3-5731970e640f";
     V(ImplUuidVolumeSw)                 \
     V(ImplUuidVolumeBundle)             \
     V(ImplUuidSpatializerSw)            \
-    V(ImplUuidViper)
+    V(ImplUuidViper)                    \
+    V(ImplUuidDolbyDap)
 
 #define EFFECT_OTHER_UUID_LIST_DEF(V) \
     V(UuidNull)                           \
